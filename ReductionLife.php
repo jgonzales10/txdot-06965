@@ -247,31 +247,6 @@ html, body {
 				}
 
 			});
-			/*
-			$("#SpectraFM").click(function(){//(Spectra) POPULATE ONLY FM ROADS
-	  			$("#SpectraRoadSelect").empty();
-	  			$('<option value="Select Roadway" selected="selected">Select Roadway</option>' ).appendTo( "#SpectraRoadSelect" );
-				$('<option value="FM624">FM624</option>').appendTo( "#SpectraRoadSelect" ); 
-				$('<option value="FM99">FM99</option>').appendTo( "#SpectraRoadSelect" );
-				$('<option value="FM468">FM468</option>').appendTo( "#SpectraRoadSelect" );
-			});
-			$("#SpectraSH").click(function(){//(Spectra) POPULATE ONLY SH ROADS
-				$("#SpectraRoadSelect").empty();
-	  			$('<option value="Select Roadway" selected="selected">Select Roadway</option>' ).appendTo( "#SpectraRoadSelect" );
-				$( '<option value="SH16">SH16</option>' ).appendTo( "#SpectraRoadSelect" ); 
-				$( '<option value="SH123">SH123</option>' ).appendTo( "#SpectraRoadSelect" );
-				$( '<option value="SH72">SH72</option>' ).appendTo( "#SpectraRoadSelect" );
-				$( '<option value="SH119">SH119</option>' ).appendTo( "#SpectraRoadSelect" ); 
-				
-			});
-			$("#SpectraUS").click(function(){//(Spectra) POPULATE ONLY US ROADS
-				$("#SpectraRoadSelect").empty();
-	  			$('<option value="Select Roadway" selected="selected">Select Roadway</option>' ).appendTo( "#SpectraRoadSelect" );
-				$( '<option value="US281">US281</option>' ).appendTo( "#SpectraRoadSelect" ); 
-				$( '<option value="US83">US83</option>' ).appendTo( "#SpectraRoadSelect" );
-				$( '<option value="US183">US183</option>' ).appendTo( "#SpectraRoadSelect" );
-			});
-			*/
 			$("#defaultCheck2").click(function(){ //If the 'Show All Rows' checkbox is clicked, it will disable the Axle Weight dropdown form
 				if ($(this).is(":checked")) {
 					$("#vehicleClassSelect").prop("disabled", true);
@@ -566,83 +541,45 @@ top:5px;
 					if(markerLabel == "FM 624"){
 						//downloadFM624();
 						selectFM624();
-						//clickedSanAntonio();
-						//document.getElementById("SanAntonioOption").selected = true;
-
-						//document.getElementById("FM").selected = true;
-						
-						//document.getElementById("SanAntonioOption").submit();					
-						//SA();
-						//document.getElementById('SanAntonioOption').click();
-						//document.getElementById("SanAntonioOption").click;
-						//var someLink = document.querySelector('SanAntonioOption');
-						//simulateClick(someLink);
-												
-						//document.getElementById("McMullenOption").selected = true;
-						//document.getElementById("SanAntonioOption").selected = true;
-						
-						//document.getElementById("SanAntonioOption").click();
-						//alert(document.getElementById('districtSelect').selectedIndex);
-						//document.getElementById('districtSelect').click();
-						//alert(document.getElementById('SanAntonioOption').click());
-						//("#SanAntonioOption").click();
-						//$("#McMullenOption").click();
 						
 					}
 					if(markerLabel == "FM 99"){
-						//downloadFM99();
 						selectFM99();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "SH 16"){
-						//downloadSH16();
 						selectSH16();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "SH 123"){
-						//downloadSH123();
 						selectSH123();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "US 281"){
 						selectUS281();
-						//window.open('file:///C:/Users/Jaime/eclipse-workspace/CTIS/Remaining%20Service%20Life-US281.pdf');
-						//downloadUS281();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "SH 72"){
 						selectSH72();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "FM 468"){
 						selectFM468();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "US 83"){
 						selectUS83();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "US 183"){
 						selectUS183();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "SH 119"){
 						selectSH119();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					
-					
-					//alert(htmlString);
-					//alert(markerLabel);
 				});
 
 			}

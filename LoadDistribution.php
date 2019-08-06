@@ -928,102 +928,46 @@ function selectSH119(){
 					map.setCenter(marker.getPosition());
 					var markerLabel = marker.getLabel();
 					if(markerLabel == "FM 624"){
-						//downloadFM624();
 						selectFM624();
-						
-						//clickedSanAntonio();
-						//document.getElementById("SanAntonioOption").selected = true;
-
-						//document.getElementById("FM").selected = true;
-						
-						//document.getElementById("SanAntonioOption").submit();					
-						//SA();
-						//document.getElementById('SanAntonioOption').click();
-						//document.getElementById("SanAntonioOption").click;
-						//var someLink = document.querySelector('SanAntonioOption');
-						//simulateClick(someLink);
-												
-						//document.getElementById("McMullenOption").selected = true;
-						//document.getElementById("SanAntonioOption").selected = true;
-						
-						//document.getElementById("SanAntonioOption").click();
-						//alert(document.getElementById('districtSelect').selectedIndex);
-						//document.getElementById('districtSelect').click();
-						//alert(document.getElementById('SanAntonioOption').click());
-						//("#SanAntonioOption").click();
-						//$("#McMullenOption").click();
 						
 					}
 					if(markerLabel == "FM 99"){
-						//downloadFM99();
 						selectFM99();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "SH 16"){
-						//downloadSH16();
-						
-						
 						selectSH16();
 						
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
 					}
 					if(markerLabel == "SH 123"){
-						//downloadSH123();
 						selectSH123();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "US 281"){
 						selectUS281();
-						//window.open('file:///C:/Users/Jaime/eclipse-workspace/CTIS/Remaining%20Service%20Life-US281.pdf');
-						//downloadUS281();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "SH 72"){
 						selectSH72();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "FM 468"){
 						selectFM468();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "US 83"){
 						selectUS83();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "US 183"){
 						selectUS183();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
 					if(markerLabel == "SH 119"){
 						selectSH119();
-						//clickedSanAntonio();
-						//$("#McMullenOption").click();	
+						
 					}
-					/*
-					// Construct the polygon.
-				var roadsPolygon = new google.maps.Polygon({
-				paths: polyCoords,
-				//strokeColor: '#0000FF', //BLUE
-				//strokeColor: '#0000FF', //YELLOW
-				strokeColor: '#008000', //GREEN
-				strokeOpacity: 0.8,
-				strokeWeight: 3,
-				//fillColor: '#FFFF00',
-				fillColor: '#008000',
-				fillOpacity: 0.35
-			});
-			roadsPolygon.setMap(map);
-					*/
-					//alert(htmlString);
-					//alert(markerLabel);
+					
 				});
 
 			}
@@ -1194,104 +1138,45 @@ if (isset($_POST['submitSpectra'])) {
        //echo "<br/>";
 		}
         if($GLOBALS['selected_SpectraRoadway'] == "FM624"){
-			echo '<a href="SAT- FM 624 - Copy.zip" download="SAT- FM 624 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File..</button></a>';
-			//echo '<a href="SAT- FM 624 - Copy.ald" download>
-				//<button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File</button>
-			//</a>';
+			echo '<a href="SAT- FM 624 - Copy.zip" download="SAT-FM 624 - 2.0 Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 			
-			//echo'<div class="btn-toolbar" style="float:right;">';
-			//echo'<a type="button" href="SAT- FM 624 - Copy.ald" download="SAT- FM 624 - Copy.ald">Download</a>';
-			//echo '</div>';
-			
-			//echo '<a href="/ald/SAT- FM 624 - Copy.ald" download> ';
-			//echo '<a href="/test/ald/SAT- FM 624 - Copy.ald" download>
-			//<img src="/test/ald/SAT- FM 624 - Copy.ald" alt="W3Schools" width="104" height="142">
-		  //</a>';       
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "FM99"){
-			echo '<a href="SAT- FM 99 - Copy.zip" download="SAT- FM 99 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File.</button></a>';
-			/*
-            echo '<div class="btn-toolbar" style="float:right;">
-						<input class="btn btn-danger btn-md" type="submit"
-							name="spectraDownload" onclick="downloadFM99();" value="Download TxME Compatible File">
-					</div>';
-            */
+			echo '<a href="SAT- FM 99 - Copy.zip" download="SAT-FM 99  - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "SH16"){
-			echo '<a href="SAT- SH 16 - Copy.zip" download="SAT- SH 16 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File.</button></a>';
-/*
-            echo '<div class="btn-toolbar" style="float:right;">
-						<input class="btn btn-danger btn-md" type="submit"
-							name="spectraDownload" onclick="downloadSH16();" value="Download TxME Compatible File">
-					</div>';
-  */          
+			echo '<a href="SAT- SH 16 - Copy.zip" download="SAT-SH 16  - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+  
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "SH123"){
-			echo '<a href="CRP-SH 123 - Copy.zip" download="CRP-SH 123 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File.</button></a>';
+			echo '<a href="CRP-SH 123 - Copy.zip" download="SH 123- BU 181 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
-			/*
-            echo '<div class="btn-toolbar" style="float:right;">
-						<input class="btn btn-danger btn-md" type="submit"
-							name="spectraDownload" onclick="downloadSH123();" value="Download TxME Compatible File">
-					</div>';
-            */
+			
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "US281"){
-			echo '<a href="CRP-US 281 - Copy.zip" download="CRP-US 281 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File.</button></a>';
+			echo '<a href="CRP-US 281 - Copy.zip" download="CRP- US 281 Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
-			/*
-            echo '<div class="btn-toolbar" style="float:right;">
-						<input class="btn btn-danger btn-md" type="submit"
-							name="spectraDownload" onclick="downloadUS281();" value="Download TxME Compatible File">
-					</div>';
-            */
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "SH72"){
-			echo '<a href="CRP SH 72 - Copy.zip" download="CRP SH 72 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File.</button></a>';
+			echo '<a href="CRP SH 72 - Copy.zip" download="CRP SH 72 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
-			/*
-            echo '<div class="btn-toolbar" style="float:right;">
-						<input class="btn btn-danger btn-md" type="submit"
-							name="spectraDownload" onclick="downloadSH72();" value="Download TxME Compatible File">
-					</div>';
-            */
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "FM468"){
-			echo '<a href="LRD- FM  468 - Copy.zip" download="LRD- FM  468 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File.</button></a>';
+			echo '<a href="LRD- FM  468 - Copy.zip" download="LRD FM 468 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
-			/*
-            echo '<div class="btn-toolbar" style="float:right;">
-						<input class="btn btn-danger btn-md" type="submit"
-							name="spectraDownload" onclick="downloadFM468();" value="Download TxME Compatible File">
-					</div>';
-            */
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "US83"){
-			echo '<a href="LRD - US 83 - Copy.zip" download="LRD - US 83 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File.</button></a>';
+			echo '<a href="LRD - US 83 - Copy.zip" download="LRD - US 83 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
-			/*
-            echo '<div class="btn-toolbar" style="float:right;">
-						<input class="btn btn-danger btn-md" type="submit"
-							name="spectraDownload" onclick="downloadUS83();" value="Download TxME Compatible File">
-					</div>';
-            */
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "US183"){
-			echo '<a href="SAT- US 183 - Copy.zip" download="SAT- US 183 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File.</button></a>';
+			echo '<a href="SAT- US 183 - Copy.zip" download="YKM- US 183 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
-			/*
-            echo '<div class="btn-toolbar" style="float:right;">
-						<input class="btn btn-danger btn-md" type="submit"
-							name="spectraDownload" onclick="downloadUS183();" value="Download TxME Compatible File">
-					</div>';
-            */
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "SH119"){
-			echo '<a href="YKM- SH 119 - Copy.zip" download="YKM- SH 119 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File.</button></a>';
+			echo '<a href="YKM- SH 119 - Copy.zip" download="YKM- SH 119 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
-			/*
-            echo '<div class="btn-toolbar" style="float:right;"> <input class="btn btn-danger btn-md" type="submit" name="spectraDownload" onclick="downloadSH119();" value="Download TxME Compatible File"></div>';
-			*/
 		}
 		echo '<p>&nbsp;</p>';
 		echo '<p>&nbsp;</p>';
@@ -1300,7 +1185,7 @@ if (isset($_POST['submitSpectra'])) {
 		echo '</div>';
 		echo '<p>&nbsp;</p>';
 
-		require_once "PHPExcel-1.8/Classes/PHPExcel.php";
+		require_once "./PHPExcel-1.8/Classes/PHPExcel.php";
 		if((string) $_POST['dropdownSpectraSeason'] == "Summer"){
 			$tmpfname = "Axle Load Spectra Database - SUMMER - ONLY.xlsx";
 		}
@@ -1515,71 +1400,8 @@ if (isset($_POST['submitSpectra'])) {
 				echo "<p>&nbsp;</p>";
 				echo '<div id="divTable" name="divTable" style="border:solid">';
 
-				/*
-                for($i = 5; $i <= 14; $i+=2){
-                    echo '<div id="parentContainer" style="width: 100%;">';
-                    echo '<div id="chartContainer'.($i).'" style="height: 30%; width: 30%;"></div>';
-                    echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                    
-                    echo '<div id="chartContainer'.(($i+1)).'" style="height: 30%; width: 30%;"></div>';
-                    echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                    echo '</div>';
-                    echo '<div id="chartContainer'.($i+3).'" style="height: 25%; width: 25%;"></div>';
-                    echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                    echo '<div id="chartContainer'.($i+4).'" style="height: 25%; width: 25%;"></div>';
-                    echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                    
-                }
-                
-                echo '<div class="row">';
-                
-                echo '<div id="chartContainer'.(13).'" style="height: 50%; width: 50%;"></div>';
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                echo '<div id="chartContainer'.(14).'" style="height: 50%; width: 50%;"></div>';
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                */
-                
-                //echo '<div class="row">';
-                /*
-                echo '<div id="chartContainer5" style="height: 40%; width: 40%;"></div>';
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                
-                echo '<div id="chartContainer6" style="height: 40%; width: 40%;"></div>';
-                
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                echo '<div class="row">';
-                echo '<div id="chartContainer7" style="height: 40%; width: 40%;"></div>';
-                
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                echo '<div id="chartContainer8" style="height: 40%; width: 40%;"></div>';
-                
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                echo '<div class="row">';
-                echo '<div id="chartContainer9" style="height: 40%; width: 40%;"></div>';
-                
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                echo '<div id="chartContainer10" style="height: 40%; width: 40%;"></div>';
-                
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                echo '<div class="row">';
-                echo '<div id="chartContainer11" style="height: 40%; width: 40%;"></div>';
-                
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                echo '<div id="chartContainer12" style="height: 40%; width: 40%;"></div>';
-                
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                echo '<div class="row">';
-                echo '<div id="chartContainer13" style="height: 40%; width: 40%;"></div>';
-                
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                echo '<div id="chartContainer14" style="height: 40%; width: 40%;"></div>';
-                
-                echo '<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
-                */
+				
             }
-            // echo '<div class="row">';
-            // echo '<div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6">';
-            // echo '<div class="table-wrapper-scroll-y my-custom-scrollbar">';
 
             echo "<h4 class='centerBoldText'>Axle Load Distribution</h4>";
 			if ($showAllOption) { // Shows table for all vehicle classes (4-13)
@@ -1637,39 +1459,30 @@ if (isset($_POST['submitSpectra'])) {
                 }
                 echo "</table>";
             	echo "</div>";
-                ////echo "</div>";
             } else { // Shows table for only one certain vehicle class
                 for ($row = $firstRoadwayRow - 1; $row <= $firstRoadwayRow - 1; $row ++) {
                     for ($charCol = 65; $charCol <= 90; $charCol ++) { // 65 == 'A', 90 == 'Z', this will allow for numeric traversal through the columns
                         
                         if ($charCol == 65 || $charCol == 66 || $charCol == 67) {
-                            ////echo '<th scope = "row">' . ($worksheet->getCell(chr($charCol) . $row)->getValue()) . '</th>';
                         } else if ($charCol != 68) {
-                            // $rowsArray[] = array($worksheet->getCell(chr($charCol).$row)->getValue());
-                            ////echo '<th scope = "col">' . (($worksheet->getCell(chr($charCol) . $row)->getValue())) . '</th>';
+                           
                         }
                     }
                     for ($charCol = 65; $charCol <= $lastColumn; $charCol ++) { // 65 == 'A', 90 == 'Z', this will allow for numeric traversal through the columns
-                        // $rowsArray[] = array($worksheet->getCell("A".chr($charCol).$row)->getValue());
-                        ////echo '<th scope = "col">' . (($worksheet->getCell("A" . chr($charCol) . $row)->getValue())) . '</th>';
+                        
                     }
                 }
-                ////echo '</tr>';
-                ////echo '</thead>';
+               
                 for ($row = $firstRoadwayRow + (intval($GLOBALS['selected_val3']) - 4); $row <= $firstRoadwayRow + (intval($GLOBALS['selected_val3']) - 4); $row ++) {
-                    ////echo '<tr>';
                     for ($charCol = 65; $charCol <= 90; $charCol ++) { // 65 == 'A', 90 == 'Z', this will allow for numeric traversal through the columns
                         if ($charCol == 65) {
-                            // $rowsArray = $worksheet->getCell(chr($charCol).$row)->getValue();
-                            ////echo '<th scope = "row">' . ($worksheet->getCell(chr($charCol) . $row)->getValue()) . '</th>';
+                            
                         } else if ($charCol != 68) {
                             if ($charCol > 68) {
                                 array_push($columnsArray, round($worksheet->getCell(chr($charCol) . $row)->getValue(), 2));
                             }
                             if ($charCol == 66) {
-                                ////echo '<th scope = "col">' . (($worksheet->getCell(chr($charCol) . $row)->getValue())) . '</th>'; // basically don't round when the value is "SUMMER"
                             } else {
-                                ////echo '<th scope = "col">' . (round($worksheet->getCell(chr($charCol) . $row)->getValue(), 2)) . '</th>';
                             }
                         }
                         if ($charCol == 67) {
@@ -1678,9 +1491,7 @@ if (isset($_POST['submitSpectra'])) {
                     }
                     for ($charCol = 65; $charCol <= $lastColumn; $charCol ++) { // 65 == 'A', 90 == 'Z', this will allow for numeric traversal through the columns
                         array_push($columnsArray, round($worksheet->getCell("A" . chr($charCol) . $row)->getValue(), 2));
-                        ////echo '<th scope = "col">' . (round($worksheet->getCell("A" . chr($charCol) . $row)->getValue(), 2)) . '</th>';
                     }
-                    ////echo '</tr>';
                 }
                 
 
@@ -1699,11 +1510,7 @@ if (isset($_POST['submitSpectra'])) {
 				}
 
             }
-            ////echo "</table>";
-            ////echo "</div>";
-            ////echo "</div>";
-            ////echo '<div class="table-wrapper-scroll-y my-custom-scrollbar">';
-
+            
             if(!$showAllOption){
                 echo '<table class="table table-fixed table-striped text-center table-dark bg-info table-bordered table-hover table-sm">';
                 echo '<thead class = "header-fixed">';
@@ -2243,19 +2050,7 @@ window.onload = function showCharts() {
 <?php
 if ($GLOBALS['showAllSpectra'] == true) {
     echo "chart4.render();";
-    /*
-    echo "chart5.render();";
-    echo "chart6.render();";
-    echo "chart7.render();";
-    echo "chart8.render();";
-    echo "chart9.render();";
-    echo "chart10.render();";
-    echo "chart11.render();";
-    echo "chart12.render();";
-    echo "chart13.render();";
-    echo "chart14.render();";
-    echo "chart15.render();";
-    */
+    
 } else {
     echo "chart3.render();";
 }
