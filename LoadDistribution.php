@@ -1138,44 +1138,44 @@ if (isset($_POST['submitSpectra'])) {
        //echo "<br/>";
 		}
         if($GLOBALS['selected_SpectraRoadway'] == "FM624"){
-			echo '<a href="SAT- FM 624 - Copy.zip" download="SAT-FM 624 - 2.0 Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/SAT-FM 624.zip" download="SAT-FM 624.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 			
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "FM99"){
-			echo '<a href="SAT- FM 99 - Copy.zip" download="SAT-FM 99  - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/SAT-FM 99.zip" download="SAT-FM 99.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 			
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "SH16"){
-			echo '<a href="SAT- SH 16 - Copy.zip" download="SAT-SH 16  - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/SAT-SH 16.zip" download="SAT-SH 16.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
   
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "SH123"){
-			echo '<a href="CRP-SH 123 - Copy.zip" download="SH 123- BU 181 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/CRP-SH 123.zip" download="CRP-SH 123.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
 			
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "US281"){
-			echo '<a href="CRP-US 281 - Copy.zip" download="CRP- US 281 Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/CRP-US 281.zip" download="CRP-US 281.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "SH72"){
-			echo '<a href="CRP SH 72 - Copy.zip" download="CRP SH 72 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/CRP-SH 72.zip" download="CRP-SH 72.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "FM468"){
-			echo '<a href="LRD- FM  468 - Copy.zip" download="LRD FM 468 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/LRD-FM 468.zip" download="LRD-FM 468.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "US83"){
-			echo '<a href="LRD - US 83 - Copy.zip" download="LRD - US 83 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/LRD-US 83.zip" download="LRD-US 83.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "US183"){
-			echo '<a href="SAT- US 183 - Copy.zip" download="YKM- US 183 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/YKM-US 183.zip" download="YKM-US 183.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
         }
         else if($GLOBALS['selected_SpectraRoadway'] == "SH119"){
-			echo '<a href="YKM- SH 119 - Copy.zip" download="YKM- SH 119 - Copy.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
+			echo '<a href="./ald/YKM-SH 119.zip" download="YKM-SH 119.zip" target="_blank"><button type="button" class="btn btn-danger btn-md"style="Float:left;">Download TxME Compatible File (.zip)</button></a>';
 
 		}
 		echo '<p>&nbsp;</p>';

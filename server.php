@@ -23,12 +23,17 @@ $email = mysqli_real_escape_string($db, $_POST['email']);
 $password_1 = mysqli_real_escape_string($db, $_POST['password_1']);
 $password_2 = mysqli_real_escape_string($db, $_POST['password_2']);
 
+$split = explode("@",$email);
+
 //form validation
 if(empty($username)){
   array_push($errors,"Username is required");
 }
 if(empty($email)){
   array_push($errors,"Email is required");
+}
+if($split[1] != "utep.edu" && $split[1] != "miners.utep.edu" && $split[1] != "txdot.gov"){
+  array_push($errors,"Invalid email, only TxDOT and UTEP credentials allowed.");
 }
 if(empty($password_1)){
   array_push($errors,"Password is required");
@@ -91,8 +96,19 @@ if(isset($_POST['login_user'])){
       $_SESSION['success'] = "Logged in successfully";
       
       echo "<script type='text/javascript'>  window.location='LoadDistribution.php'; </script>";
-    }else{
-      array_push($errors, "Wrong username/password combination. Please try again.");
+    }else{ //Going to Check if user entered Email address instead of username
+      $query = "SELECT * FROM user WHERE email = '$username' AND password='$password'";
+      $results = mysqli_query($db, $query);
+
+      if(mysqli_num_rows($results)){
+         $_SESSION['username'] = $username;
+         $_SESSION['success'] = "Logged in successfully";
+      
+        echo "<script type='text/javascript'>  window.location='LoadDistribution.php'; </script>";
+      }
+      else{
+        array_push($errors, "Wrong username/password combination. Please try again.");
+      }
     }
   }
 }
